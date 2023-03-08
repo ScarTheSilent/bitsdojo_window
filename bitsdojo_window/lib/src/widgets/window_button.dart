@@ -96,7 +96,7 @@ class WindowButton extends StatelessWidget {
         return Container();
       }
     }
-    final buttonSize = appWindow.titleBarButtonSize;
+    final buttonSize = Size(40, 40);
     return MouseStateBuilder(
       builder: (context, mouseState) {
         WindowButtonContext buttonContext = WindowButtonContext(
